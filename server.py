@@ -2,14 +2,12 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-# Список комнат
 rooms = [
     {"id": 1, "name": "Living Room"},
     {"id": 2, "name": "Bedroom"},
     {"id": 3, "name": "Kitchen"}
 ]
 
-# Параметры комнат
 parameters = {
     1: [
         {"id": 1, "name": "Light", "value": "off", "type": "boolean"},
