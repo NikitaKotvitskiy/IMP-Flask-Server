@@ -9,7 +9,11 @@ rooms = [
     {"id": 4, "name": "Red room"},
     {"id": 5, "name": "Room1"},
     {"id": 6, "name": "Room2"},
-    {"id": 7, "name": "Room3"},
+    {"id": 7, "name": "Room4"},
+    {"id": 8, "name": "Room5"},
+    {"id": 9, "name": "Room6"},
+    {"id": 10, "name": "Room7"},
+    {"id": 11, "name": "Room8"},
 ]
 
 parameters = {
