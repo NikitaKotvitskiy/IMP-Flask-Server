@@ -5,7 +5,11 @@ app = Flask(__name__)
 rooms = [
     {"id": 1, "name": "Living Room"},
     {"id": 2, "name": "Bedroom"},
-    {"id": 3, "name": "Kitchen"}
+    {"id": 3, "name": "Kitchen"},
+    {"id": 4, "name": "Red room"},
+    {"id": 5, "name": "Room1"},
+    {"id": 6, "name": "Room2"},
+    {"id": 7, "name": "Room3"},
 ]
 
 parameters = {
