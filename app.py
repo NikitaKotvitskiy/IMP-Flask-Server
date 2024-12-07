@@ -25,7 +25,7 @@ parameters = {
     ],
     3: [
         {"id": 11, "name": "Lock", "value": 1, "type": "boolean"},
-        {"id": 12, "name": "Signalization", "value": 1, "type": "boolean"},
+        {"id": 12, "name": "Security", "value": 1, "type": "boolean"},
     ],
 
 }
