@@ -5,51 +5,27 @@ app = Flask(__name__)
 rooms = [
     {"id": 1, "name": "Living Room"},
     {"id": 2, "name": "Bedroom"},
-    {"id": 3, "name": "Kitchen"},
-    {"id": 4, "name": "Red room"},
-    {"id": 5, "name": "Room1"},
-    {"id": 6, "name": "Room2"},
-    {"id": 7, "name": "Room4"},
-    {"id": 8, "name": "Room5"},
-    {"id": 9, "name": "Room6"},
-    {"id": 10, "name": "Room7"},
-    {"id": 11, "name": "Room8"},
+    {"id": 3, "name": "Storage"},
 ]
 
 parameters = {
     1: [
-        {"id": 1, "name": "Light", "value": 0, "type": "boolean"},
-        {"id": 2, "name": "Temperature", "value": 22.5, "type": "float", "range": [16, 30], "step": 0.5},
-        {"id": 6, "name": "param1", "value": 5, "type": "integer", "range": [0, 10], "step": 1},
-        {"id": 7, "name": "param2", "value": 1, "type": "boolean"},
-        {"id": 8, "name": "param3", "value": 1, "type": "boolean"},
-        {"id": 9, "name": "param4", "value": 1, "type": "boolean"},
-        {"id": 10, "name": "param5", "value": 1, "type": "boolean"},
-        {"id": 11, "name": "param6", "value": 1, "type": "boolean"},
-        {"id": 12, "name": "param7", "value": 1, "type": "boolean"},
+        {"id": 1, "name": "Fan", "value": "off", "type": "boolean"},
+        {"id": 2, "name": "Humidity", "value": 40.5, "type": "float", "range": [30, 70], "step": 0.5},
+        {"id": 3, "name": "Light 1", "value": 0, "type": "boolean"},
+        {"id": 4, "name": "Light 2", "value": 0, "type": "boolean"},
+        {"id": 5, "name": "Light 3", "value": 0, "type": "boolean"},
+        {"id": 6, "name": "Light 4", "value": 0, "type": "boolean"},
+        {"id": 7, "name": "Temp.", "value": 18.0, "type": "float", "range": [15, 30], "step": 0.5},
+        {"id": 8, "name": "Music", "value": 0, "type": "boolean"},
+        {"id": 9, "name": "Volume", "value": 5, "type": "integer", "range": [0, 10], "step": 1},
     ],
     2: [
-        {"id": 3, "name": "Light", "value": "on", "type": "boolean"}
+        {"id": 10, "name": "Light", "value": "on", "type": "boolean"}
     ],
     3: [
-        {"id": 4, "name": "Fan", "value": "off", "type": "boolean"},
-        {"id": 5, "name": "Humidity", "value": 40.5, "type": "float", "range": [30, 70], "step": 0.5}
-    ],
-    4: [
-    ],
-    5: [
-    ],
-    6: [
-    ],
-    7: [
-    ],
-    8: [
-    ],
-    9: [
-    ],
-    10: [
-    ],
-    11: [
+        {"id": 11, "name": "Lock", "value": 1, "type": "boolean"},
+        {"id": 12, "name": "Signalization", "value": 1, "type": "boolean"},
     ],
 
 }
