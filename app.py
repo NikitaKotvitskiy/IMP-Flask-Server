@@ -18,8 +18,15 @@ rooms = [
 
 parameters = {
     1: [
-        {"id": 1, "name": "Light", "value": "off", "type": "boolean"},
-        {"id": 2, "name": "Temperature", "value": 22, "type": "integer", "range": [16, 30], "step": 1}
+        {"id": 1, "name": "Light", "value": 0, "type": "boolean"},
+        {"id": 2, "name": "Temperature", "value": 22.5, "type": "float", "range": [16, 30], "step": 0.5},
+        {"id": 6, "name": "param1", "value": 5, "type": "integer", "range": [0, 10], "step": 1},
+        {"id": 7, "name": "param2", "value": 1, "type": "boolean"},
+        {"id": 8, "name": "param3", "value": 1, "type": "boolean"},
+        {"id": 9, "name": "param4", "value": 1, "type": "boolean"},
+        {"id": 10, "name": "param5", "value": 1, "type": "boolean"},
+        {"id": 11, "name": "param6", "value": 1, "type": "boolean"},
+        {"id": 12, "name": "param7", "value": 1, "type": "boolean"},
     ],
     2: [
         {"id": 3, "name": "Light", "value": "on", "type": "boolean"}
@@ -27,7 +34,24 @@ parameters = {
     3: [
         {"id": 4, "name": "Fan", "value": "off", "type": "boolean"},
         {"id": 5, "name": "Humidity", "value": 40.5, "type": "float", "range": [30, 70], "step": 0.5}
-    ]
+    ],
+    4: [
+    ],
+    5: [
+    ],
+    6: [
+    ],
+    7: [
+    ],
+    8: [
+    ],
+    9: [
+    ],
+    10: [
+    ],
+    11: [
+    ],
+
 }
 
 @app.route('/rooms', methods=['GET'])
